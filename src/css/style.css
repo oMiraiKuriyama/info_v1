@@ -16,15 +16,13 @@ body {
     -o-user-select: none;
     user-select: none;
     
-    --mode-bg-color:#6794d3;
     --mode-default-color:#fff;
-    --avatar-box-shadow-color:#7face98d;
-    --mode-btn-bg-dark:#6794d3;
-    --mode-btn-bg-dark-2:#6794d3;
+    --avatar-box-shadow-color:#825e648d;
+    --mode-btn-bg-dark:#825e64;
     --list-item-bg-color:#eee;
-    --list-item-bg-color-2:#7face9;
+    --list-item-bg-color-2:#825e64;
     --list-item-text-color:#666;
-    --mode-btn-bg:#7face9;
+    --mode-btn-bg:#825e64;
     --text-color:#666;
 
     font-family: 'Open Sans', sans-serif;
@@ -32,15 +30,13 @@ body {
 }
 
 body.dark-mode {
-    --mode-bg-color:#000;
     --mode-default-color:#000;
-    --avatar-box-shadow-color:#3c7fa88d;
-    --mode-btn-bg-dark:#2e6485;
-    --mode-btn-bg-dark-2:#201f1f;
+    --avatar-box-shadow-color:#825e648d;
+    --mode-btn-bg-dark:#825e64;
     --list-item-bg-color:#2b2a2a;
     --list-item-bg-color-2:#2b2a2a;
     --list-item-text-color:#fff;
-    --mode-btn-bg:#3c7fa8;
+    --mode-btn-bg:#996d74;
     --text-color:#fff;
 
     background-color: var(--mode-default-color);
@@ -182,26 +178,6 @@ button:focus {
     line-height: 35px;
 }
 
-/* #main_card #cm_button {
-    margin-top: 50px;
-    background-color: transparent;
-    color: var(--mode-bg-color);
-    border: 2px solid var(--mode-bg-color);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    padding: 1rem;
-    border-radius: 0.25rem;
-    cursor: none;
-    opacity: 1;
-    transition: background .2s, color .2s;
-} */
-
-/* #main_card #cm_button:hover {
-    background-color: var(--mode-bg-color);
-    color: #fff;
-} */
-
 #main_card #list_button {
     margin-top: 50px;
     display: flex;
@@ -221,7 +197,7 @@ button:focus {
 }
 
 #main_card #list_button .btn:hover {
-    background-color: var(--mode-btn-bg-dark-2);
+    background-color: var(--mode-btn-bg-dark);
 }
 
 #main_card #list_button .btn._nohope i {
@@ -703,7 +679,7 @@ button:focus {
     opacity: 0;
     padding: 12px 16px;
     color: #fff;
-    background-color: var(--mode-btn-bg-dark-2);
+    background-color: var(--mode-btn-bg-dark);
     border-radius: 4px;
     font-size: 14px;
     margin-top: -3px;
