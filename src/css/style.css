@@ -18,7 +18,7 @@ body {
     
     --mode-default-color:#fff;
     --avatar-box-shadow-color:#825e648d;
-    --mode-btn-bg-dark:#825e64;
+    --mode-btn-bg-dark:#63474c;
     --list-item-bg-color:#eee;
     --list-item-bg-color-2:#825e64;
     --list-item-text-color:#666;
@@ -32,7 +32,7 @@ body {
 body.dark-mode {
     --mode-default-color:#000;
     --avatar-box-shadow-color:#825e648d;
-    --mode-btn-bg-dark:#825e64;
+    --mode-btn-bg-dark:#201f1f;
     --list-item-bg-color:#2b2a2a;
     --list-item-bg-color-2:#2b2a2a;
     --list-item-text-color:#fff;
